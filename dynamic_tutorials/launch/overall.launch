@@ -1,0 +1,8 @@
+<launch>
+<node pkg = "turtlesim" name = "turtlesim_node" type = "turtlesim_node" output = "screen"/>
+
+<node pkg="dynamic_tutorials" name = "main_d" type = "main_d" output="screen"/>
+
+##<node pkg="rqt_reconfigure" type="rqt_reconfigure" name="my_rqt_reconfigure" args="/Turtle"/>
+
+</launch>
