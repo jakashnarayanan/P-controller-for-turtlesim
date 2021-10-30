@@ -4,4 +4,14 @@ This repo help you in following ways
 2) How to provide goal coordiantes to the turtlesim topic.
 3) Implementing simple P controller to the turtlesim.
 
-The following has been written on both python and c++.
+# Follow the steps to use this repo:
+
+## clone the repo 
+>`git clone <repo>`
+>catkin_make
+## Run the launch file 
+>`roslaunch dynamic_tutorials overall.launch`
+## Run rqt_reconfigure for gui
+>`rosrun rqt_reconfigure rqt_reconfigure /main_d `
+
+NOW you can give x and y coordinates using the slider
