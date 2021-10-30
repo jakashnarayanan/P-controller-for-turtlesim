@@ -8,7 +8,7 @@ This repo help you in following ways
 
 ## clone the repo 
 >`git clone <repo>`
->catkin_make
+>`catkin_make`
 ## Run the launch file 
 >`roslaunch dynamic_tutorials overall.launch`
 ## Run rqt_reconfigure for gui
